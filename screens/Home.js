@@ -1,4 +1,4 @@
-import {View,Text,StyleSheet,} from "react-native";
+import {View,Text,StyleSheet, TouchableOpacity,} from "react-native";
 import React from "react";
 import { COLORS } from '../constants';
 
@@ -6,7 +6,9 @@ const Home = ({navigation}) => {
 
   return (
     <View style={styles.homeScreen}>
-      <Text>Home</Text>
+      <TouchableOpacity>
+      <Text>Change Theme</Text>
+      </TouchableOpacity>
     </View>
   );
 };
