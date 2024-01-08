@@ -8,10 +8,10 @@ const Home = ({navigation}) => {
   return (
     <View style={styles.homeScreen}>
       <View style={styles.contentContainer}>
-        <TaskCard />
-        <TaskCard />
-        <TaskCard />
-        <TaskCard />
+        <TaskCard title={"Wire up the new user flow"}/>
+        <TaskCard title={"Create buttons states"}/>
+        <TaskCard title={"Create to do list"}/>
+        <TaskCard title={"Add T&Cs to CPG"}/>
       </View>
     </View>
   );

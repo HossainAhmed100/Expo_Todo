@@ -2,10 +2,10 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { COLORS, SIZES } from '../constants'
 
-const TaskCard = () => {
+const TaskCard = ({title}) => {
   return (
     <View style={{borderRadius: 8, borderWidth: 0.5, borderColor: COLORS.slate200, padding: 10, gap: 8}}>
-        <Text style={{fontWeight: 500, fontSize: 18, color: COLORS.slate500}}>Create wireframes</Text>
+        <Text style={{fontWeight: 500, fontSize: 16, color: COLORS.slate500}}>{title}</Text>
         <View style={{flexDirection: "row", gap: 10, alignItems: "center"}}>
             <View style={styles.dayCard}>
             <Text style={{fontWeight: 500, color: COLORS.white500, fontSize: 10}}>Fri</Text>
