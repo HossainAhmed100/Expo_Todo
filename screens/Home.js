@@ -1,24 +1,30 @@
 import {View,Text,StyleSheet, TouchableOpacity,} from "react-native";
 import React from "react";
-import { COLORS } from '../constants';
+import { COLORS, SIZES } from '../constants';
+import TaskCard from "../components/TaskCard";
 
 const Home = ({navigation}) => {
 
   return (
     <View style={styles.homeScreen}>
-      <TouchableOpacity>
-      <Text>Change Theme</Text>
-      </TouchableOpacity>
+      <View style={styles.contentContainer}>
+        <TaskCard />
+        <TaskCard />
+        <TaskCard />
+        <TaskCard />
+      </View>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
   homeScreen:{
-    flex: 1, 
-    alignItems: "center", 
-    justifyContent: 'center',
+    minHeight: "100%",
     backgroundColor: COLORS.white500,
+  },
+  contentContainer:{
+    padding: SIZES.large,
+    gap: 10
   }
 })
 
