@@ -8,7 +8,7 @@ const TaskCard = ({title}) => {
         <Text style={{fontWeight: 500, fontSize: 16, color: COLORS.slate500}}>{title}</Text>
         <View style={{flexDirection: "row", gap: 10, alignItems: "center"}}>
             <View style={styles.dayCard}>
-            <Text style={{fontWeight: 500, color: COLORS.white500, fontSize: 10}}>Fri</Text>
+            <Text style={{fontWeight: 500, color: COLORS.whiteBold, fontSize: 10}}>Fri</Text>
             </View>
         <View style={{flexDirection: "row", gap: 10}}>
             <View style={styles.taskBold}></View>

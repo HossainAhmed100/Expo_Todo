@@ -106,7 +106,7 @@ const Register = ({ navigation }) => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: COLORS.white500,
+    backgroundColor: COLORS.whiteBold,
     paddingBottom: 20,
   },
   inputBox: {
@@ -130,7 +130,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
   },
   googleLoginBtn: {
-    backgroundColor: COLORS.white500,
+    backgroundColor: COLORS.whiteBold,
     width: 300,
     paddingVertical: SIZES.small,
     borderRadius: SIZES.xSmall,

@@ -22,7 +22,15 @@ const COLORS = {
   slate500: '#334155',
   slate600: '#1E293B',
 
-  white500: '#FFFFFF'
+  whiteBold: "#FFFFFF",
+
+  bgPrimary: "#222431",
+  bgSecondery: "#B4B8CB",
+  borderColor: "#575963",
+  
+  textPrimary: "#FFFFFF",
+  textSecondary: "#B4B8CB",
+    
 
 };
 

@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: COLORS.white500,
+    backgroundColor: COLORS.whiteBold,
   },
   inputBox: {
     paddingVertical: SIZES.xSmall,
@@ -113,7 +113,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
   },
   googleLoginBtn: {
-    backgroundColor: COLORS.white500,
+    backgroundColor: COLORS.whiteBold,
     width: 300,
     paddingVertical: SIZES.small,
     borderRadius: SIZES.xSmall,
